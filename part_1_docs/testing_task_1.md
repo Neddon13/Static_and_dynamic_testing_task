@@ -34,12 +34,11 @@ class CardGame:
     return card2
   
 
-
 def cards_total(self, cards):
   total                           # Hasn't been assigned to anything. Should be, for example, 'total = 0'
   for card in cards:
     total += card.value
     return "You have a total of" + total 
-    # Should be using string interpolation e.g f"You have a total of + {total}"
+    # Should be using string interpolation e.g f"You have a total of {total}"
   
 ```
